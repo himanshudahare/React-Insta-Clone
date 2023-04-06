@@ -1,0 +1,16 @@
+
+.card{
+    
+    display: flex !important;
+    flex-wrap: nowrap ;
+    flex-direction: row;
+    min-width: 150px;
+    
+    
+}
+
+.landing-img{
+    width:300px;
+    height: 400px;
+    border: 2px solid black;
+}
