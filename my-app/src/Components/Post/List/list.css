@@ -1,0 +1,46 @@
+.list-post-container{
+    margin: 10px;
+    align-items: center;
+  justify-content: center;
+  display: flex !important;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.card-body{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-body{
+  max-width: 300px;
+
+}
+
+.card-body img{
+  height: 60%;
+  width: 95%;
+}
+
+
+.card-header, .card-footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.col-12{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
+.card-footer img{
+  width: 25px;
+  height: 25px;
+
+}

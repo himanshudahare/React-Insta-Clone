@@ -8,17 +8,16 @@ import './landing.css';
 
 export default function LandingPage(){
     return(
-        
-           <Card className="card" >
+          <div className="home-container">
+           <Card className="home-content" >
       <Card.Img className="landing-img" variant="left" src={home} alt="Landing-image"/>
       <Card.Body className="landing-content">
         <Card.Title>10x Team 04</Card.Title>
        
-        <Link to=  {"post/all"}> <Button variant="primary">Enter</Button></Link>
+        <Link to=  {"new"}> <Button variant="primary">Enter</Button></Link>
       </Card.Body>
     </Card> 
-            
-            
+    </div>   
             
             
             
